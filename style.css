@@ -15,6 +15,7 @@ body{
 .container{
     align-items: center;
     justify-items: center;
+    /* height: 100vh; */
 }
 .container h2{
     border: 2px solid black;
@@ -38,4 +39,26 @@ body{
 .btn:hover{
     background-color: #292979;
     color: #b565ff;
+}
+
+.countdown{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+.countdown_items{
+    display: flex;
+   
+}
+
+.info_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #292979;
+    margin: 0 1rem;
+    padding: 1.1rem 1.3rem;
+    border-radius: 15px;
+    color: beige;
 }
